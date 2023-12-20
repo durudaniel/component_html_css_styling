@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width, initial-scale= 1.0" />
+    <script src="./index.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>league.latrophy</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* COLOR VERSION: #087f5b
+      GREY VERSION: 343a40s*/
+      body {
+        font-family: "inter", sans-serif;
+        color: #343a40;
+        line-height: 1;
+      }
+      .league {
+        width: 800px;
+        margin: 100px auto;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 300px;
+        row-gap: 20px;
+        position: relative;
+      }
+      .league-name {
+        position: absolute;
+        left: 0;
+        top: 13%;
+        transform: translate(111%, 0);
+        font-size: 12px;
+      }
+      .league-result {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        margin-bottom: 15px;
+        font-size: 14px;
+        column-gap: 10px;
+      }
+      .club {
+        font-size: 14px;
+      }
+      .league-point {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+      }
+      .pts {
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="league-name">
+      <h1>Latrophy League Table</h1>
+    </div>
+    <div class="league">
+      <div>
+        <p class="club">Club</p>
+      </div>
+      <div class="league-result">
+        <p>MP</p>
+        <p>W</p>
+        <p>D</p>
+        <p>L</p>
+        <p class="pts">Pts</p>
+        <p>GF</p>
+        <p>GA</p>
+        <p>GD</p>
+      </div>
+      <div class="league-team">
+        <p>1 Chemmzy</p>
+      </div>
+      <div class="league-point">
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p class="pts">0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+      </div>
+      <div class="league-team">
+        <p>2 Him</p>
+      </div>
+      <div class="league-point">
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p class="pts">0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+      </div>
+      <div class="league-team">
+        <p>3 Legacy</p>
+      </div>
+      <div class="league-point">
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p class="pts">0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+      </div>
+      <div class="league-team">
+        <p>4 Sarama11</p>
+      </div>
+      <div class="league-point">
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p class="pts">0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+      </div>
+      <div class="league-team">
+        <p>5 ManchesterU</p>
+      </div>
+      <div class="league-point">
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p class="pts">0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+      </div>
+      <div class="league-team">
+        <p>6 Emmanuel</p>
+      </div>
+      <div class="league-point">
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+        <p class="pts">0</p>
+        <p>0</p>
+        <p>0</p>
+        <p>0</p>
+      </div>
+    </div>
+  </body>
+</html>
